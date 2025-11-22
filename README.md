@@ -49,7 +49,7 @@ o	First, load the netlist. You can browse for the file and select “Top cell : 
 
 o	An MMMC browser Pops Up.
 
-![WhatsApp Image 2025-11-22 at 19 41 13_6ca48032](https://github.com/user-attachments/assets/862d8a2c-d8fc-4a2f-bc2d-30c4fcafa320)
+<img width="819" height="670" alt="image" src="https://github.com/user-attachments/assets/12b66c0e-44d0-437e-878e-7620932e7edd" />
 
 
 The order of adding the MMMC Objects is as follows. 
