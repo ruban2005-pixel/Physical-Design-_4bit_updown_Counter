@@ -74,7 +74,6 @@ Adding Liberty Files (slow.lib, fast.lib) under “Library Sets
 
 • add fast.lib with a label Fast or any identifier of your own.
 
-<img width="1920" height="1080" alt="Screenshot (300)" src="https://github.com/user-attachments/assets/c9e61e76-e440-40c2-a35d-c2dbbb220337" />
 
 ### Fig.2 Add fast Library set
 
@@ -87,13 +86,11 @@ Adding Liberty Files (slow.lib, fast.lib) under “Library Sets
 
 • Delay Corners are formed by combining Library Sets with RC Corners.
 
-<img width="1920" height="1080" alt="Screenshot (304)" src="https://github.com/user-attachments/assets/554bec31-6d1b-40d6-b751-4cb1ae09039e" />
 
 ### Fig.4 Add Delay corner Max_delay & Min_delay
 
 • Similarly, SDC can be read under the MMMC Object of “Constraints”.
 
-<img width="1920" height="1080" alt="Screenshot (305)" src="https://github.com/user-attachments/assets/75027ecf-7ebc-438a-855d-f809b1afd20b" />
 
 ### Fig.5 SDC Constraint file
 
