@@ -49,7 +49,8 @@ o	First, load the netlist. You can browse for the file and select “Top cell : 
 
 o	An MMMC browser Pops Up.
 
-<img width="819" height="670" alt="image" src="https://github.com/user-attachments/assets/12b66c0e-44d0-437e-878e-7620932e7edd" />
+![WhatsApp Image 2025-11-22 at 19 41 13_6ca48032](https://github.com/user-attachments/assets/862d8a2c-d8fc-4a2f-bc2d-30c4fcafa320)
+
 
 The order of adding the MMMC Objects is as follows. 
 
@@ -73,25 +74,40 @@ Adding Liberty Files (slow.lib, fast.lib) under “Library Sets
 
 • add fast.lib with a label Fast or any identifier of your own.
 
+<img width="1920" height="1080" alt="Screenshot (300)" src="https://github.com/user-attachments/assets/c9e61e76-e440-40c2-a35d-c2dbbb220337" />
+
 ### Fig.2 Add fast Library set
 
 • Adding RC Corners can also be done in a similar process. The temperature value can be found under the corresponding liberty file. Also, cap table and RC Tech files can be added from Foundry where available.
+
+![WhatsApp Image 2025-11-22 at 19 41 13_1c7de418](https://github.com/user-attachments/assets/d2f91a2a-06dd-4b45-9352-37f409b5aba2)
+
 
 ### Fig.3 Add RC corner
 
 • Delay Corners are formed by combining Library Sets with RC Corners.
 
+<img width="1920" height="1080" alt="Screenshot (304)" src="https://github.com/user-attachments/assets/554bec31-6d1b-40d6-b751-4cb1ae09039e" />
+
 ### Fig.4 Add Delay corner Max_delay & Min_delay
 
 • Similarly, SDC can be read under the MMMC Object of “Constraints”.
+
+<img width="1920" height="1080" alt="Screenshot (305)" src="https://github.com/user-attachments/assets/75027ecf-7ebc-438a-855d-f809b1afd20b" />
 
 ### Fig.5 SDC Constraint file
 
 • Analysis Views are formed from combinations of SDC and Delay Corner.
 
+![WhatsApp Image 2025-11-22 at 19 42 04_1eae85d7](https://github.com/user-attachments/assets/e8ec520d-2b96-4581-af1b-21d60d18d879)
+
+
 ### Fig.6 Add Analysis View Worstcase & Bestcase
 
 • Once “Best” and “Worst” Analysis views are created, assign them to Setup and Hold.
+
+![WhatsApp Image 2025-11-22 at 19 42 31_eb47a058](https://github.com/user-attachments/assets/dc4a67a9-d9cf-4e2f-997b-1ad68459d456)
+
 
 ### Fig.7 Add Setup Analysis View & Hold Analysis View
 
@@ -101,11 +117,16 @@ Adding Liberty Files (slow.lib, fast.lib) under “Library Sets
 
 • After saving the script, go back to Import Design window and Click “OK” to load your design.
 
-<img width="829" height="504" alt="image" src="https://github.com/user-attachments/assets/9daa96ae-ee07-42a3-804a-58f68763fd55" />
+![WhatsApp Image 2025-11-22 at 19 42 42_cc7739a8](https://github.com/user-attachments/assets/583bece4-4669-4bcd-a3bc-dc8f021105d6)
+
 
 In the Import Design window click the save option to save the Default.globals file
 
 • A rectangular or square box appears in your GUI if and only if all the inputs are read properly.
+
+![WhatsApp Image 2025-11-22 at 19 42 54_74c035d3](https://github.com/user-attachments/assets/b0957d12-6c24-4525-a8c1-2b01473b0591)
+
+
 
 ### Fig.8 Core area
 
@@ -126,6 +147,9 @@ In the Import Design window click the save option to save the Default.globals fi
 3. Channel Spacing between Core Boundary to IO Boundary
  
 • Select Floorplan → Specify Floorplan to modify/add concerned values to the above Factors. On adding/modifying the concerned values, the core area is also modified.
+
+![WhatsApp Image 2025-11-22 at 19 43 26_f63771eb](https://github.com/user-attachments/assets/b19b23e6-8f51-42cc-8865-ef4f6b50717a)
+
 
 ### Fig.9 Specify Floorplan 
 
@@ -171,6 +195,9 @@ Under Connect Global Net Connects, we create two pins, one for VDD and one for V
 
 • After the Special Route is complete, all the Standard Cell Rows turn to the Color coded for Metal 1 
 
+![WhatsApp Image 2025-11-22 at 19 44 05_4682268f](https://github.com/user-attachments/assets/cd1a7f49-6d4f-4dbe-ac77-a886e02cf013)
+
+
 ### Fig.10 Power plan 
 
 The complete Power Planning process makes sure Every Standard Cell receives enough power to operate smoothly.
@@ -182,8 +209,13 @@ The complete Power Planning process makes sure Every Standard Cell receives enou
 2. Select Place → Place Standard Cell → Run Full Placement → Mode → Enable ‘Place I/O Pins’ → OK → OK .
    
 • All the Standard Cells and Pins are placed as per the communication between them, i.e., Two communicating Cells are placed as close as possible so that shorter Net lengths can be used for connections as Shorter Net Lengths enable Better Timing Results.
+![WhatsApp Image 2025-11-22 at 19 44 24_874dbca5](https://github.com/user-attachments/assets/94e3bc8d-7375-4d6c-b3e4-1a0455dea0d6)
+
 
 ### Fig.11 Placement of standard Cells 
+
+![WhatsApp Image 2025-11-22 at 19 44 39_b27656f6](https://github.com/user-attachments/assets/0ddf81df-3824-4d96-93b4-e3a5e7f720a3)
+
 
 • You can toggle the Layer Visibility from the list on the Right. The List of Layers available are shown on the right under “Layer” tab with colour coding.
 
